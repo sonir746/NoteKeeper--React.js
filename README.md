@@ -4,7 +4,7 @@ NoteKeeper is a simple and responsive note-taking app built with React. It allow
 
 ## Live Demo
 
-Check out the live demo [here](https://note-keeper-g4wgiif94-sonir746s-projects.vercel.app/).
+Check out the live demo [here](https://note-keeper-pied.vercel.app/).
 
 ## Features
 
