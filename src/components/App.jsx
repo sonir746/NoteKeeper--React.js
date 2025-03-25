@@ -8,14 +8,18 @@ function App() {
   const [notes, setNotes] = useState([]);
 
   function addNote(newNote) {
-     newNote.title.trim() &&
-    setNotes(prevNotes => {
-      return [...prevNotes, newNote];
-    });
+    if (newNote.title.trim()) {
+      setNotes((prevNotes) => {
+        return [...prevNotes, newNote];
+      });
+    }
+    else{
+      alert("Title is required");
+    }
   }
 
   function deleteNote(id) {
-    setNotes(prevNotes => {
+    setNotes((prevNotes) => {
       return prevNotes.filter((noteItem, index) => {
         return index !== id;
       });

@@ -35,7 +35,7 @@ function CreateArea(props) {
     <div>
       <form className="create-note">
         {isExpend && (
-          <input
+          <input autoFocus 
             name="title"
             onChange={handleChange}
             value={note.title}
