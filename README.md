@@ -73,7 +73,7 @@ package.json
 
 ## Feedback
 
-If you have any feedback, please reach out to me at rahulsoni@gmail.com
+If you have any feedback, please reach out to me at rahulsoni7469@gmail.com
 
 Or
 
