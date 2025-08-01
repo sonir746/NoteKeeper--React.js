@@ -1,4 +1,4 @@
-# 📝 NoteKeeper
+# 📒 NoteKeeper
 
 A minimal yet powerful note-taking app built with React, featuring a clean, responsive UI and seamless user experience.
 
